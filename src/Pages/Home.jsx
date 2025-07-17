@@ -1,4 +1,4 @@
-import Footer from "../assets/Footer";
+import Footer from "../shared/Footer";
 import NavBar from "../shared/NavBar";
 import BrandValue from "./homeComponents/BrandValue";
 import Construction from "./homeComponents/Construction";
