@@ -27,31 +27,8 @@ const features = [
 ];
 
 const Features = () => {
-  //   const features = [
-  //     {
-  //       title: "Strategy",
-  //       desc: "Launch quickly with our optimized processes tailored to your goals.",
-  //       icon: "🚀",
-  //     },
-  //     {
-  //       title: "Branding",
-  //       desc: "Build a strong identity that resonates with your audience and market.",
-  //       icon: "🎯",
-  //     },
-  //     {
-  //       title: "Development",
-  //       desc: "Robust, scalable, and modern development with clean, maintainable code.",
-  //       icon: "💡",
-  //     },
-  //     {
-  //       title: "Web Design",
-  //       desc: "Visually stunning and user-friendly web designs that convert.",
-  //       icon: "🎨",
-  //     },
-  //   ];
-
   return (
-    <section className="py-20 px-6">
+    <section className="relative mt-20 py-20 px-6">
       <div className="max-w-6xl mx-auto text-center">
         <h2 className="text-4xl font-bold text-gray-800 mb-4">
           Epic design and engineering

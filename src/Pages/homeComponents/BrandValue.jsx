@@ -31,7 +31,7 @@ const BrandValue = () => {
 
       {/* Text Content */}
       <motion.div
-        className="relative z-30 text-center  bg-black py-10 px-20"
+        className="relative z-30 max-w-md text-center  bg-black py-12 px-10"
         whileHover={{ scale: 1.03 }}
         transition={{ duration: 0.3 }}
       >

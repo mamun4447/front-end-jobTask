@@ -2,9 +2,9 @@ import contact from "../../assets/Contact.jpg";
 
 const Contact = () => {
   return (
-    <section className="grid grid-cols-2 mt-32 ml-20 ">
+    <section className="grid grid-cols-1 md:grid-cols-2 mt-32 ml-20 ">
       {/* ===>Contact Info<=== */}
-      <div className="text-gray-600 pt-20 space-y-2 mx-auto text-center bg-white w-full h-full">
+      <div className="text-gray-600 order-2 md:order-1 px-2 pb-4 pt-20 space-y-2 mx-auto text-center bg-white w-full h-full">
         <h1 className="text-black text-5xl font-bold">Contact Us</h1>
         <p className="text-lg">
           We are here to meet any businesses need and to <br /> promote your
@@ -24,7 +24,7 @@ const Contact = () => {
       </div>
 
       {/* ===>an image<=== */}
-      <img src={contact} />
+      <img className="order-1 md:order-2" src={contact} />
     </section>
   );
 };

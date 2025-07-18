@@ -15,7 +15,6 @@ const Home = () => {
     <div className="bg-[#e4d3c8]">
       <NavBar />
       <Hero />
-      {/*hero left*/}
       <Features />
       <Portfolio />
       <BrandValue />
